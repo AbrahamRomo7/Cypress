@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Cypress output folders
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Cypress config cache
+.cypress-cache/
+.cypress/
+
+# Environment files (si usas credenciales o configuraciones locales)
+.env
+.env.local
+
+# OS / editor specific
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Build / coverage (si en el futuro agregas reportes)
+coverage/
+dist/
