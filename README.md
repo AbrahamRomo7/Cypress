@@ -45,3 +45,7 @@ Permite repetir la ejecución en caso de caerse para evitar falsos negativos
 5. Compra con 3 productos y eliminación de 1
 
 6. Compra con 2 productos y datos válidos
+```
+#Conclusiones las encontramos aquí
+
+<img width="319" height="153" alt="image" src="https://github.com/user-attachments/assets/ab319645-ffd8-4f8f-9665-76fe1828c635" />
