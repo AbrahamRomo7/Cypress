@@ -1,5 +1,6 @@
 # Pruebas E2E – Flujo de Compra Demoblaze
 <img width="730" height="636" alt="image" src="https://github.com/user-attachments/assets/2a279aec-de07-41b0-8eea-444c80d16a9f" />
+
 Este proyecto automatiza pruebas **End-to-End** del flujo de compra en la tienda de
 demostración [Demoblaze](https://www.demoblaze.com/) utilizando **Cypress.io**.
 Se incluyen escenarios exitosos y fallidos, validando tanto el carrito como la información de pago.
