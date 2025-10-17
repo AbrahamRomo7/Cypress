@@ -1,0 +1,27 @@
+Pruebas APIs 
+REPORTE DE PRUEBAS - API DEMOBLAZE
+
+
+Se realizaron pruebas sobre los endpoints de autenticación (/signup y /login) de la API Demoblaze, abarcando aspectos funcionales, de seguridad y validación. 
+
+Hallazgos Principales
+
+1. Filtración de Información por SQL Injection
+   - La API no permite ingresar al sistema con ataques SQL, pero sí expone datos sensibles a través de mensajes de error diferenciados.
+   - Riesgo: Permite enumerar usuarios y conocer detalles internos de la base de datos.
+
+
+2. Falta de Validación de Entrada
+   - Se permite enviar campos vacíos o malformados, y la API responde con errores 500.
+   - Riesgo: Inestabilidad, exposición de información técnica y posible ataque de denegación de servicio.
+
+
+3. Formato Inconsistente de Respuesta
+   - El login devuelve un string directo en lugar de un JSON estructurado.
+   - Riesgo: Dificultades en la integración con clientes y falta de estandarización.
+
+
+4. Falta de Controles de Seguridad Adicionales
+   - No se implementan controles básicos como límite de intentos, bloqueo de cuenta o validación de contraseñas.
+   - Riesgo: Vulnerabilidad a ataques de fuerza bruta y falta de trazabilidad.
+
